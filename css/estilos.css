@@ -1,0 +1,32 @@
+body {
+    background: blue;
+    font-family: Arial;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: #4499ff;
+  }
+  
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .site-title,
+  .site-subtitle {
+    text-align: center;
+  }
